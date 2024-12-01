@@ -93,3 +93,4 @@ jobs:
       - name: Cleanup Docker container
         run: docker rm p4a-latest
         if: always()
+
